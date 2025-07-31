@@ -1,0 +1,3 @@
+site_name: Project Docs Demo
+nav:
+  - Home: index.md
