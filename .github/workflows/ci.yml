@@ -43,7 +43,7 @@ jobs:
         run: pip install mkdocs
       - name: Build docs
         run: mkdocs build --strict
-      - name: Deploy to GitHub Pages2
+      - name: Deploy to GitHub Pages TT29
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
